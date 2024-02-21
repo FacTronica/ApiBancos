@@ -1,15 +1,16 @@
 # ApiBancos
+
 API Diseñada para que el programador pueda realizar una rápida Integración de Sistema Propio con el Banco.
 El objetivo de esta api es descargar la cartola bancaria del rango de fecha seleccionada.
 La comunicación entre el Servidor y Cliente se realiza a traves de Datos Json.
 
-## Características:
--   🔲 **Compatibilidad:** Windows, Linux y Mac.
+## CARACTERÍSTICAS:
 
--   🖥 **Integración:** Datos Json.
+**Compatibilidad:** Windows, Linux y Mac.
 
--   🌐 **Soporte:** Soporte Técnico para Implementación
+**Integración:** ApiRest Datos Json.
 
+**Código Abierto:** Se entrega el código fuente.
 
 ## Documentación
 
@@ -19,12 +20,18 @@ A continuación se detalla el procedimiento a seguir para realizar la integraci�
 -   [02.-Esperar respuesta]
 -   [03.-Recibir Respuesta Json] 
 
-## Bancos Compatibles:
+## BANCOS COMPATIBLES:
 
 La Api actualmente es compatible con los siguientes bancos.
+-Banco Chile Empresas
+-Banco Santander Empresas
+-Banco Estado Personas
+-Banco Scotiabank Personas
 
-## PETICIÓN CURL CARTOLA BANCO CHILE EMPRESAS
-curl -k -d "accion=BANCOCHILE&desde=20240201&hasta=20240220&rut=11222333-4&clave=clavedelbanco&cuenta=11.222.333-4&token_api=TOKEN-ACCESO-API" -H "Content-Type: application/x-www-form-urlencoded" -X POST http://45.236.128.126:3426
+## BANCO CHILE EMPRESAS - CONSULTAR CARTOLA
+````
+curl -k -d "accion=BANCOCHILE&desde=20240218&hasta=20240219&rut=11222333-4&clave=claveusuariobco&cuenta=11.222.333-4&token_api=API-KEY-USER" -H "Content-Type: application/x-www-form-urlencoded" -X POST http://152.174.83.224:3000
+````
 
 
 
