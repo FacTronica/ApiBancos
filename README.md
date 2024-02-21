@@ -44,8 +44,31 @@ curl -k -d "accion=BANCOCHILE&desde=20240218&hasta=20240219&rut=11222333-4&clave
 
 ## BANCO CHILE - DATOS DE SALIDA
 ````
+{
 
-..
+
+"Movimientos":
+[
+{"Fecha":"","Tipo":"","Monto":"","Glosa":""},
+{"FECHA":"20240220","TIPO":"C","MONTO":"50000","GLOSA":"App-traspaso A: Juan Perez"},
+{"FECHA":"20240220","TIPO":"A","MONTO":"550000","GLOSA":"Traspaso De: Megamarket S.A.},
+{"FECHA":"20240220","TIPO":"C","MONTO":"30000","GLOSA":"App-traspaso A: Lapiz Lopez"}
+],
+
+
+"Saldos":
+[
+{"SaldoDisponible":"1800000","SaldoContable":"1800000","Retenciones1":"200000","Retenciones2":"800000"}
+],
+
+
+"Consulta":
+[
+{"RutUsuario":"11222333-4","Cuenta":"22.333.444-5","FechaDesde":"20230901","FechaHasta":"20230914"}
+]   
+
+
+}
 ````
 
 
