@@ -35,12 +35,12 @@ curl -k -d "accion=BANCOCHILE&desde=20240218&hasta=20240219&rut=11222333-4&clave
 
 ## BANCO CHILE - DATOS DE ENTRADA
 
-desde = Fecha inicio de la cartola en formato aaammdd
-hasta = Fecha inicio de la cartola en formato aaammdd
-rut = rut persona en formato 11222333-4 ( sin puntos y con guión )
-clave = clave de la persona
-cuenta = Rut de la cuenta empresa a consultar en formato 11.222.333-4 ( con puntos y guión )
-token_api = Clave de acceso a la api ( se debe solicitar a factronicaerp@gmail.com )
+<br>desde = Fecha inicio de la cartola en formato aaammdd
+<br>hasta = Fecha inicio de la cartola en formato aaammdd
+<br>rut = rut persona en formato 11222333-4 ( sin puntos y con guión )
+<br>clave = clave de la persona
+<br>cuenta = Rut de la cuenta empresa a consultar en formato 11.222.333-4 ( con puntos y guión )
+<br>token_api = Clave de acceso a la api ( se debe solicitar a factronicaerp@gmail.com )
 
 ## BANCO CHILE - DATOS DE SALIDA
 ````
