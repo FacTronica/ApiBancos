@@ -28,9 +28,24 @@ La Api actualmente es compatible con los siguientes bancos.
 -Banco Estado Personas
 -Banco Scotiabank Personas
 
-## BANCO CHILE EMPRESAS - CONSULTAR CARTOLA
+## BANCO CHILE - CONSULTAR CARTOLA
 ````
 curl -k -d "accion=BANCOCHILE&desde=20240218&hasta=20240219&rut=11222333-4&clave=claveusuariobco&cuenta=11.222.333-4&token_api=API-KEY-USER" -H "Content-Type: application/x-www-form-urlencoded" -X POST http://152.174.83.224:3000
+````
+
+## BANCO CHILE - DATOS DE ENTRADA
+
+desde = Fecha inicio de la cartola en formato aaammdd
+hasta = Fecha inicio de la cartola en formato aaammdd
+rut = rut persona en formato 11222333-4 ( sin puntos y con guión )
+clave = clave de la persona
+cuenta = Rut de la cuenta empresa a consultar en formato 11.222.333-4 ( con puntos y guión )
+token_api = Clave de acceso a la api ( se debe solicitar a factronicaerp@gmail.com )
+
+## BANCO CHILE - DATOS DE SALIDA
+````
+
+..
 ````
 
 
