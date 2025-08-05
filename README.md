@@ -30,7 +30,7 @@ La Api actualmente es compatible con los siguientes bancos.
 
 ## BANCO CHILE - CONSULTAR CARTOLA
 ````
-curl -k -d "accion=BANCOCHILE&desde=20240218&hasta=20240219&rut=11222333-4&clave=claveusuariobco&cuenta=11.222.333-4&token_api=API-KEY-USER" -H "Content-Type: application/x-www-form-urlencoded" -X POST http://152.174.83.224:3000
+curl -k -d "accion=BANCOCHILE&desde=20250801&hasta=20250804&rut=11222333-5&clave=abc123&cuenta=11.111.111-6&token_api=abc123" -H "Content-Type: application/x-www-form-urlencoded" -X POST http://servidor9.sistemafactronica.cl:3426
 ````
 
 ## BANCO CHILE - DATOS DE ENTRADA
