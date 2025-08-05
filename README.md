@@ -71,7 +71,7 @@ curl -k -d "accion=BANCOCHILE&desde=20250801&hasta=20250804&rut=11222333-5&clave
 }
 ````
 
-## Ejemoplo en Php
+## Ejemplo en Php
 ````
 <?php
 /**
